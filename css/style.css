@@ -16,3 +16,15 @@
 }
 
 /*Styling the contanct and social media footer*/
+
+.social {
+  width:118.75rem ;
+  height: 26.5625rem;
+  background-color: pink;
+   font-family: 'Dosis', sans-serif;
+
+}
+/*Styling the contact section under NATEB*/
+h1 {
+  font-family: 'Dosis', sans-serif;
+}
