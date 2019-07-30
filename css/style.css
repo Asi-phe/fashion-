@@ -20,11 +20,47 @@
 .social {
   width:118.75rem ;
   height: 26.5625rem;
-  background-color: pink;
+  background-color: black;
    font-family: 'Dosis', sans-serif;
 
 }
 /*Styling the contact section under NATEB*/
-h1 {
+.social h1 {
   font-family: 'Dosis', sans-serif;
+  .N-a-T-e-B {
+  width: 7.3125rem;
+  height: 1.3125rem;
+  font-family: Dosis;
+  font-size: 1.875rem;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.09375rem;
+  text-align: left;
+  color: white;
+  
+}
+}
+
+.header {
+  width: 118.75rem;
+  height:3.3125rem ;
+  background-color: black;
+}
+/*Styling my INSTAGRAM container*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: ;
+  background-color:black ;
+  padding: 10px;
+}
+
+.grid-container > div {
+  .Image-Holder 
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+}
 }
