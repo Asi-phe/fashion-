@@ -137,7 +137,7 @@ body {
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: #111;
+        background-color: black;
         /*same background color of navbar*/
         background-position: center top;
     }
@@ -155,6 +155,21 @@ body {
         display: block;
     }
 }
+
+
+
+
+/* Extra Things */
+body{background: #eee ;
+font-family: 'Open Sans', sans-serif;}
+h3{font-size: 30px;
+ font-weight: 400;
+ text-align: center;
+ margin-top: 50px;
+ }
+h3 i{
+  color: #444;
+  }
 
 
 /* Animation */
@@ -377,7 +392,7 @@ body {
 
 /*Image hover*/
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
   transform: scale(1.5); 
 }
