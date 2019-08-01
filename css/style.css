@@ -6,6 +6,9 @@ h1{
   
   color:grey;
 }
+.logo{
+  font-family: 'Dosis', sans-serif;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 html,
@@ -28,22 +31,23 @@ body {
     position: fixed;
     line-height: 65px;
     text-align: center;
+    
 }
 
-.nav div.logo {
+.nav div.search {
     float: left;
     width: auto;
     height: auto;
     padding-left: 3rem;
 }
 
-.nav div.logo a {
+.nav div.search a {
     text-decoration: none;
     color: #fff;
     font-size: 2.5rem;
 }
 
-.nav div.logo a:hover {
+.nav div.search a:hover {
     color: #00E676;
 }
 
@@ -369,4 +373,11 @@ body {
 	.myP {
 		padding:2%;
 	}
+}
+
+/*Image hover*/
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }

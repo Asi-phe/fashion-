@@ -13,6 +13,8 @@
     <title>Nate Online Store</title>
     <!--Font Awesome link-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!--Google link-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
   </head>
   <body>
    
@@ -20,24 +22,29 @@
    <div class="row bg-dark text-white">
   <div class="col">col</div>
   <div class="col">FREE SHIPPING FOR STANDARD ODER OVER R100</div>
-  <div class="col">col</div>
+  <div class="col"> <span> <i class="fab fa-facebook-f"></i></span></div>
 </div>
 <!--Nav bar-->
 
 
 <nav class="nav">
         <div class="container">
-            <div class="logo">
+            <div class="search">
                 <a href="#"><i class="fas fa-search"></i></a>
+               
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                     <li><a href="#">N A T E B</a></li>
+                    <li><a href="#">BLOG</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
+           
+
             <span class="navTrigger">
                 <i></i>
                 <i></i>
@@ -50,28 +57,63 @@
     </section>
     <div style="height: 1000px">
         <!-- just to make scrolling effect possible -->
-			<h2 class="myH2">FEATURED PRODUCT</h2>
+			<h2 class="myH2">FEATURED PRODUCTS</h2>
 
 
-        <h2 style="text-align:center">Product Card</h2>
+        <h2 style="text-align:center">FEATURED PRODUCTS</h2><br><br><br>
 
-<div class="card">
-  <img src="/w3images/jeans3.jpg" alt="Denim Jeans" style="width:100%">
-  <h1>Tailored Jeans</h1>
-  <p class="price">$19.99</p>
-  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
-  <p><button>Add to Cart</button></p>
+
+<div class="container">
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/images/clay.jpg" target="_blank">
+         <div class="zoom">  <img src="images/clay.jpg" class="img-fluid" alt="Responsive image"></div>
+          <div class="caption">
+            <p>.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/images/beads.jpg" target="_blank">
+           <img src="images/art.jpg" class="img-fluid" alt="Responsive image">
+          <div class="caption">
+            <p></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/images/cups.jpg" target="_blank">
+           <img src="images/bags.jpg" class="img-fluid" alt="Responsive image">
+          <div class="caption">
+            <p></p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-<h2 style="text-align:center">Product Card</h2>
+<br><br><br>
 
-<div class="card">
-  <img src="/w3images/jeans3.jpg" alt="Denim Jeans" style="width:100%">
-  <h1>Tailored Jeans</h1>
-  <p class="price">$19.99</p>
-  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
-  <p><button>Add to Cart</button></p>
+	<h2 class="myH2">FEATURED PRODUCTS</h2>
+
+
+        <h3 style="text-align:center">NEW COLLECTION</h3><br><br><br>
+<div class="zoom">
+<div class="text-center">
+<div class="row">
+  <div class="col-sm-6"> <img src="images/bags.jpg" class="img-fluid" alt="Responsive image"></div>
+  <div class="col-sm-6"> <img src="images/bags.jpg" class="img-fluid" alt="Responsive image"></div>
+ 
 </div>
-
+</div>
+</div>
           <script>
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
